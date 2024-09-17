@@ -1,0 +1,30 @@
+.login-div{
+    background-color: rgb(255, 255, 255);
+    max-height: 300vh;
+    min-width: 30vh;
+    max-width: 60vh;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:6vh;
+    border: solid black 1px;
+    border-radius: 3vh;
+}
+
+.login-div div{ 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input {
+    height: 2vh;
+    width: 100%;
+}
+
+#Submit {
+    align-self: flex-end;
+    height: 3vh;
+    width: 7vh;
+}

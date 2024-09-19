@@ -17,7 +17,7 @@ export default function Header2() {
             </nav>
             <div className="UserAccount">
                 <p>User</p>
-                <img src={UserIcon} alt="" />
+                <img src={UserIcon} alt="Imagem do usuário" />
             </div>
         </div>
     )

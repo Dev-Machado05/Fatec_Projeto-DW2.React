@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: url(../../assets/fonts/Josefin_Sans/static/JosefinSans-Italic.ttf);
+    font-style: italic;
+}
+
+.HeaderContainer{
+    height: 10vh;
+    display: flex;
+    background-color: #0f102c;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vh;
+}
+
+.LogoContainer {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.LogoContainer img {
+    border-radius: 4vh;
+    max-height: 8vh;
+}
+
+.LogoContainer p {
+    color: white;
+    font-size: 3vh;
+    font-family: Josefin_Sans;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.HeaderContainer nav {
+    display: flex;
+    gap: 2vh;
+}
+
+.HeaderContainer a {
+    color: white;
+    font-size: 1.8vh;
+}
+
+.UserAccount {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.UserAccount img{ 
+    max-height: 5vh;
+}
+
+.UserAccount p {
+    color: white;
+    font-size: 2.7vh;
+    font-weight: 400;
+}

@@ -5,10 +5,11 @@ import './style.css';
 export default function SignUpDiv() {
     const [Email, setEmail] = useState('');
     const [Username, setUsername] = useState('');
-    //terminar de implantar as funcionalidades dos inputs
+    const [Password, setPassword] = useState('');
+    const [ConfirmPassword, setConfirmPassword] = useState('');
 
     function Goto() {
-        window.location.href = '/UserHome';
+        window.location.href = '/Home';
     }
 
     return (
@@ -16,7 +17,7 @@ export default function SignUpDiv() {
             <h1>Sign-up</h1>
             <div>
                 <label htmlFor="">Email: </label>
-                <input type="email" id="" placeholder="Email" />
+                <input type="email" id="" placeholder="Email" value={Email} onChange={(e) => setEmail(e.target.value)} />
                 <br />
 
                 <label htmlFor="">Usuário: </label>
@@ -24,11 +25,11 @@ export default function SignUpDiv() {
                 <br />
                 
                 <label htmlFor="">Senha: </label>
-                <input type="password" id="" placeholder="Password" />
+                <input type="password" id="" placeholder="Password" value={Password} onChange={(e) => setPassword(e.target.value)} />
                 <br />
                 
                 <label htmlFor="">Confirmação da Senha: </label>
-                <input type="password" id="" placeholder="Confirm Password" />
+                <input type="password" id="" placeholder="Confirm Password" value={ConfirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
 
             </div>
             <button className="SubmitButton" onClick={Goto}>Cadastrar</button>

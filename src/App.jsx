@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import LoginPage from './Pages/LoginPage.jsx'
 import SignUpPage from './Pages/SiginUpPage.jsx'
+import UserHome from './Pages/UserHome.jsx';
 
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡶⢶⣾⠻⣦⡀⠀⠀⠀⠀⠀
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠋⠀⠀⠙⢶⡾⠃⠀⠀⠀⠀⠀
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     {
         path: "/Sign-up",
         element: <SignUpPage />,
+    },
+    {
+      path: "/Home",
+      element: <UserHome />
     },
 ]);
 

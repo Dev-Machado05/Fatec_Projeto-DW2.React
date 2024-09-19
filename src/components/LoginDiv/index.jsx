@@ -7,10 +7,10 @@ export default function LoginDiv() {
     const [Password, setPassword] = useState('');
 
     function verify() {
-        if (InputValue1 === 'adm' && InputValue2 === 'adm1234') {
-            window.location.pathname = '../../Pages/AdmHome.jsx'
-        } else if (InputValue1 === 'user' && InputValue2 === 'user1234') {
-            window.location.pathname = '../../Pages/UserHome.jsx'
+        if (Username === 'adm' && Password === 'adm1234') {
+            window.location.href = '/AdmHome'
+        } else if (Username === 'user' && Password === 'user1234') {
+            window.location.href = '/Home'
         }
     }
 

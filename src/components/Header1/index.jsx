@@ -1,10 +1,23 @@
 import './style.css'
+import Logo from '../../assets/image/Logo1.jpeg';
 
-export default function Header1() {
+export default function Header1({ ButtonUse }) {
+
+    function GoTo() {
+        if (ButtonUse === 'Sign-Up') {
+            window.location.href = '/Sign-up';
+        } else if (ButtonUse === 'Login') {
+            window.location.href = '/';
+        }
+    }
+
     return (
         <div className="HeaderContainer">
-            <img src="https://picsum.photos/200/300" alt="icone da Logo" />
-            <button>sign-up</button>
+            <div className='LogoContainer'>
+                <img src={Logo} alt="icone da Logo" />
+                <p>BuyFlow</p>
+            </div>
+            <button onClick={GoTo}>{ButtonUse}</button>
         </div>
     )
 }

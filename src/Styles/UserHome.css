@@ -10,7 +10,25 @@ body {
 
 .Main-content {
     width: 100%;
-    margin: 2vh 2vh;
+}
+
+.BlueLine {
+    background-color: #0F102C;
+    width: 90%;
+    height: 12px;
+    display: flex;
+    justify-self: center;
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0F102C;
+    margin: 25px 0;
+    gap: 10px
 }
 
 .Temas {

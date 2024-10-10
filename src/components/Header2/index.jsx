@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/image/Logo1.jpeg";
 import UserIcon from "../../assets/image/user.png";
+import SearchBt from "../../assets/image/Vector.svg"
 import "./style.css";
 
 export default function Header2() {
@@ -14,7 +15,7 @@ export default function Header2() {
       <div className="SearchBar">
         <input type="text" name="" id="" />
         <button>
-          <img src="" alt="" />
+          <img src={SearchBt} alt="" />
         </button>
       </div>
       {/* Implementar a side bar */}

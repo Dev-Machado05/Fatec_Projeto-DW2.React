@@ -1,9 +1,15 @@
 .SignUpDiv { 
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SingUpContainer {
+    height: 75%;
+    width: 23%;
     background-color: rgb(255, 255, 255);
-    min-height: 650px;
-    max-height: 750px;
-    min-width: 500px;
-    max-width: 600px;
     padding: 3vh;
     display: flex;
     flex-direction: column;
@@ -25,7 +31,7 @@
     }
 }
 
-.SingUpContainer {
+.SingUpContent {
     gap: 40px;
     display: flex;
     flex-direction: column;

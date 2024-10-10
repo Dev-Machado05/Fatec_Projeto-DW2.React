@@ -5,7 +5,7 @@
 }
 
 .HeaderContainer2{
-    height: 10vh;
+    height: 65px;
     display: flex;
     background-color: #0f102c;
     justify-content: space-between;
@@ -19,14 +19,14 @@
     gap: 1vh;
 
     img {
-        border-radius: 4vh;
-        max-height: 8vh;
+        border-radius: 25px;
+        max-height: 48px;
     }
 
     p {
         color: white;
         font-size: 3vh;
-        font-family: Josefin_Sans;
+        font-family: 'Josefin_Sans';
         font-weight: 400;
         font-style: italic;
     }
@@ -42,6 +42,19 @@
     a {
         color: white;
         font-size: 1.8vh;
+    }
+}
+
+.SearchBar {
+    input {
+        height: 2.4vh;
+        border: none;
+    }
+
+    button {
+        height: 2.4vh;
+        width: 2.4vh;
+        border: none;
     }
 }
 

@@ -1,16 +1,22 @@
 .login-div{
-    background-color: rgb(255, 255, 255);
-    min-height: 500px;
-    max-height: 600px;
-    min-width: 500px;
-    max-width: 600px;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginContainer {
+    height: 60%;
+    width: 23%;
     padding: 3vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    border: solid black 1px;
     border-radius: 17px;    
+    border: solid black 1px;
+    background-color: rgb(255, 255, 255);
 }
 
 .LoginContent{ 
